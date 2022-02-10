@@ -221,6 +221,9 @@ if __name__ == '__main__':
             webbrowser.open(pdf_read()[1])
             talk("opening python" )
         if  'java' in command:
+
+
+            
             song = command.replace('java', '')
             webbrowser.open(pdf_read()[0])
             talk("opening java" )
